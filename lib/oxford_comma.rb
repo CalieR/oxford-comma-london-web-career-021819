@@ -6,6 +6,6 @@ def oxford_comma(array)
   else
     last_word = array.pop
     first_part = array.join(", ")
-    return first_part + ", and" + last_word  
+    return first_part + ", and " + last_word  
   end
 end
